@@ -1,0 +1,213 @@
+/* Text properties */
+html {
+color: #fff;
+font-size: 1.4em;
+margin: 0;
+}
+
+body {
+  font-family: 'Zen Kaku Gothic Antique', 'arial', sans-serif;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background-color: #000;
+  font-size: 1.4em;
+
+}
+
+
+
+section{
+margin: 8% auto;
+}
+
+#rectObj{
+padding: 2rem;
+margin-bottom: 2rem;
+}
+section div {
+ margin-bottom: 100%;
+}
+
+h1{
+font-family: "Abril Fatface", "Times", serif;
+ color: #fff;
+font-size: 5rem;
+}
+
+h2 {
+  font-family: 'Lora', 'Times', serif;
+  color: #fff;
+}
+
+.caption {
+font-size: 25px;
+}
+
+#footer {
+color: #fff;
+text-align: center;
+max-width: 100%;
+font-size: 5rem;
+}
+
+#header {
+color: #fff;
+text-align: center;
+max-width: 100%;
+}
+
+
+article {
+  margin: 0 auto;
+}
+section div.visual{
+			float: right;
+			position: -webkit-sticky;
+			position: sticky;
+			top: 0;
+
+		}
+
+.step  {
+padding: 1rem;
+display: block;
+}
+
+.step p {
+  padding: 1rem;
+  font-size: 1.5rem;
+  color: #fff;
+  width: 50%;
+}
+
+
+#scrolly {
+  position: relative;
+  background-color: #000;
+  padding: 1rem;
+  display: inline-block;
+  padding: 50px;
+
+  }
+
+#berlin_lorde{
+margin-bottom: 2rem;
+}
+
+
+/* TEXT ANIMATIONS */
+
+.ml16 {
+  padding: 40px 0;
+  overflow: hidden;
+}
+
+.ml16 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+
+.ml7 {
+  position: relative;
+  font-weight: 900;
+
+}
+.ml7 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+.ml7 .letter {
+  transform-origin: 0 100%;
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml13 {
+  letter-spacing: 0.5em;
+  font-weight: 600;
+}
+
+.ml13 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+.ml5 {
+  position: relative;
+  font-weight: 300;
+}
+
+.ml5 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+  line-height: 1em;
+}
+
+.ml5 .line {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  transform-origin: 0.5 0;
+}
+
+.ml5 .ampersand {
+  font-style: italic;
+  font-weight: 400;
+  width: 1em;
+  margin-right: -0.1em;
+  margin-left: -0.1em;
+}
+
+.ml5 .letters {
+  display: inline-block;
+}
+
+.ml10 {
+  position: relative;
+  font-weight: 900;
+}
+
+.ml10 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml10 .letter {
+  display: inline-block;
+  line-height: 1em;
+  transform-origin: 0 0;
+}
+
+main {
+ box-sizing: border-box;
+ max-width: 1300px;
+}
+/* link colors */
+
+a:link {
+  color: #ADC2F5;
+
+}
+a:visited {
+  color: #ECE6E6;
+}
+a:hover {
+  color: #8BABF7;
+
+text-decoration: underline;
+}

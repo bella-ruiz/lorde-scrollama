@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Audre Lorde - A Chronology</title>
+  <link rel="stylesheet" href="styles/main.css">
+<!-- put google fonts here -->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lora&family=Zen+Kaku+Gothic+Antique&display=swap" rel="stylesheet">
+   <script src="https://unpkg.com/intersection-observer"></script>
+   <script src="https://unpkg.com/scrollama"></script>
+   <script src="https://unpkg.com/d3@5.9.1/dist/d3.min.js"></script>
+   <script src="https://unpkg.com/intersection-observer@0.5.1/intersection-observer.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+  </head>
+
+<body>
+<main>
+
+ <section id="header"><h1>BLACK, LESBIAN, MOTHER,<br> WARRIOR, POET.</h1> <p>An Audre Lorde Chronology <br> By Isabella Ruiz</p> </section>
+
+ <section id="scrolly">
+  <div class="visual">
+   <img src= "images/lorde_bw.jpeg" alt="Image of Lorde in black and white" id="rectObj">
+ </div>
+<article>
+  <div class="steps">
+    <div class="step" data-step="1">
+     <h2 class="ml16">BEGINNINGS</h2>
+ <p><b>Audre Lorde</b> was an American poet and writer.  Born in Harlem, New York, in 1935, Lorde&#8217;s earliest experiences were marred by two major events: The Harlem Renaissance and The Great Depression. <br>As a child, Lorde used poetry to aid in her own communication as she had a number of speech and sight problems. The intersection of her identites (being a Black, gay woman) would be the backdrop of her life’s work. <br><a class="caption" href="https://www.flickr.com/photos/42401725@N00/2733757260" target="_blank" >K. Kendall / Flickr</a></p></div>
+
+    <div class="step" data-step="2"> <h2 class="ml7"> <span class="text-wrapper"><span class="letters"> EARLY WORK</span> </span> </h2>
+
+    <p>Lorde published her first book, &#8220;The First Cities,&#8221; in 1969.  After being diagnosed with cancer in the 1970s, she began work on &#8220;The Cancer Journals,&#8221; a multi-year work on her cancer journey and eventual masectomy. The book won the 1981 American Library Association Gay Caucus Book of the Year.
+     <br><i>&#8220;Spring comes, and still I feel despair like a pale cloud waiting to consume me, engulf me like another cancer, swallow me into immobility, metabolize me into cells of myself; my body, a barometer.  I need to remind myself of the joy, the lightness, the laughter so vital to my living and health.  Otherwise, the other will always be waiting to eat me up into despair again.  And that means destruction.  I don’t know how, but it does. 5/1/79&#8221;</i> <a class="caption" href="https://en.wikipedia.org/wiki/File:The_Cancer_Journals.jpg" target="_blank">Image source</a></p></div>
+    <div class="step" data-step="3"> <h2 class="ml10"><span class="text-wrapper">
+    <span class="letters">BERLIN YEARS</span> </span> </H2>
+   <p>Between the years of 1984-1982, Lorde would take a number of extended trips to Berlin.  There, she would work alongside Afro-German women to discuss the cultures of homophobia and other subersive forces in the ongoing liberation movements. The following video shows Lorde as a guest speaker at the John. F. Kennedy Institute within the Free University of Berlin. She reads &#8220;A Woman Speaks.&#8221; <a class="caption" href="https://www.youtube.com/watch?v=h059j-vBKEw" target="_blank">Source</a>   <video id="berlin_lorde" controls width="800" height="600">
+      <source src="videos/berlin_lorde.mp4" type="video/mp4"/>
+      <source src="videos/berlin_lorde.ogg" type="video/ogg"/> </video></p><br>
+      </div>
+    <div class="step" data-step="4"><h2 class="ml13">SEMINAL WORK</H2> <p> The mid-to-late eighties would be a time major production for Lorde. Her two most highly regarded books, &#8220;Sister Outsider&#8221; and &#8220;Poetry Is Not a Luxury&#8221; were released 1984 and 1985 respectively.<br>
+<a class="caption" href="https://www.flickr.com/photos/42401725@N00/820298895" target="_blank" >K. Kendall / Flickr</a></p></div>
+
+    <div class="step" data-step="5"><h2 class="ml5">
+     <span class="text-wrapper">
+         <span class="line line1"></span>
+         <span class="letters letters-left">FINAL YEARS</span>
+         <span class="letters ampersand">&amp;</span>
+         <span class="letters letters-right">DEATH</span>
+         <span class="line line2"></span>
+       </span> </H2>
+    <p>Lorde spent the last seven years of her life in St. Croix, where she continued her battle against breast cancer up until her death on November 17th, 1992.<br>  This poem, titled &#8220;Echoes&#8221;, speaks to the unheard.  Decades of her work and passion culminate in this piece, and her lifelong message breathes through it.  Lorde fought for the liberation through language. Her work in the Black and lesbian community laid the groundwork for the concept of intersectionality, one that has come into modern-day prevalence.
+     <br> <a class="caption" href="https://www.youtube.com/watch?v=vjEFZa19wMg" target="_blank">Source</a></p>
+     <video id="echoes_lorde" controls width="800" height="600">
+     <source src="videos/echoes_lorde.mp4" type="video/mp4"/>
+     <source src="videos/echoes_lorde.ogg" type="video/ogg"/> </video></div>
+
+    <div><h2 id="footer">THE END</H2>
+      <p> View my GitHub repo here.<br>
+        Text animations by <a href="https://tobiasahlin.com/moving-letters/" target="_blank" >Tobias Ahlin.</a> <br>
+        Video controls by <a href="https://benfrain.com/automatically-play-and-pause-video-as-it-enters-and-leaves-the-viewport-screen/" target="_blank">Ben Frain.</a> <br>
+        </p></div>
+     </div>
+  </article>
+ </section>
+</main>
+
+<script src="js/scripts.js"></script>
+</body>
+</html>

@@ -58,7 +58,6 @@ var main = d3.select("main");
          .setup({
            step: "#scrolly article .step",
            offset: 0.08,
-           debug: true,
          })
          .onStepEnter((response) => {
   							console.log(response);

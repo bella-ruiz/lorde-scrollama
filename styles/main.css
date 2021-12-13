@@ -16,7 +16,6 @@ body {
 }
 
 
-
 section{
 margin: 8% auto;
 }
@@ -208,6 +207,29 @@ a:visited {
 }
 a:hover {
   color: #8BABF7;
+}
 
-text-decoration: underline;
+@media screen and (max-width: 1200px) {
+  body {
+    margin: 0 auto;
+    padding: 2rem;
+  }
+
+#rectObj {
+display: none;
+  }
+#scrolly {
+display: flex;
+}
+
+.step {
+align-self: center;
+}
+#footer {
+margin: 0 auto;
+}
+#header {
+color: #fff;
+text-align: center;
+ }
 }

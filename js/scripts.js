@@ -1,4 +1,4 @@
-//  SCROLLAMA
+//  SCROLLAMA sticky side https://russellgoldenberg.github.io/scrollama/sticky-side/
 var main = d3.select("main");
      var scrolly = main.select("#scrolly");
      var visual = scrolly.select("visual");
@@ -83,7 +83,7 @@ var main = d3.select("main");
      // kick things off
      init();
 
-//TEXT ANIMATIONS
+//TEXT ANIMATIONS https://tobiasahlin.com/moving-letters/
 
 var textWrapper = document.querySelector('.ml16');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
